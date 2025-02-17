@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Info') {
             steps {
-                sh(script: """ whoami;pwd;ls -la; """, label: "first step")
+                sh(script: """ whoami;pwd; """, label: "first step")
             }
         }
     }
