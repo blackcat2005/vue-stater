@@ -1,6 +1,6 @@
 pipeline {
     agent {
-      label: 'vps-1'
+      label 'vps-1'
     }
 
     stages {
